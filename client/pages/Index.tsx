@@ -61,7 +61,10 @@ export default function Index() {
 
                 {/* Submit button */}
                 <button className="w-[30px] h-[30px] rounded-full bg-[#F46D33] flex items-center justify-center hover:bg-[#E55D23] transition-colors">
-                  <ArrowUp className="w-[15px] h-[15px] text-white" strokeWidth={1.5} />
+                  <ArrowUp
+                    className="w-[15px] h-[15px] text-white"
+                    strokeWidth={1.5}
+                  />
                 </button>
               </div>
             </div>
